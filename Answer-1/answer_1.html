@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer 1</title>
+    <style>
+        .internal p {
+            background-image: url('./internal.png');/* Adding a background-image in second paragraph using internal CSS*/
+        }
+
+        .priority p {
+            background-color: #a8d1d1;/* Adding a background-color to fouth paragraph using internal CSS to check the priority */
+        }
+    </style>
+    <link rel="stylesheet" href="./ans1.css"/>
+</head>
+<body bgcolor="black">
+    <div class="inline">
+        <h1>Inline CSS</h1>
+        <p style="background-image:url('./inline.png');background-attachment: fixed; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nulla, in nisi dolorum repellendus beatae! Reiciendis quae, neque atque perferendis laborum deserunt, aspernatur aliquam dolore impedit, delectus explicabo incidunt maxime?</p>
+    </div><hr><!-- Adding a background-image using inline CSS -->
+    <div class="internal">
+        <h1>Internal CSS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores officia itaque a nulla sit nam perferendis animi natus, aspernatur veritatis possimus officiis molestiae distinctio, voluptate earum, aut et esse aliquam!</p>
+    </div><hr>
+    <div class="external">
+        <h1>External CSS</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam quibusdam eius nihil nemo, earum officia, quas nostrum numquam eligendi cum quae odit corrupti veniam, provident voluptatem. Non nihil eos officiis?</p>
+    </div><hr>
+    <div class="priority">
+        <h1>Priority Order</h1>
+        <p style="background-color: #f1f7b5;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, eos quam eaque ab explicabo, excepturi accusantium laborum suscipit culpa ut, pariatur iusto quae modi error repudiandae tempora! Quod, iure aliquam.</p><!--Adding a background-color using inline CSS to check the priority-->
+    </div>
+</body>
+</html>

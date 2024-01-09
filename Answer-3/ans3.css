@@ -1,0 +1,36 @@
+fieldset {
+    width:max-content;
+    background-color: #c1bbdd;
+}
+
+legend {
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: bolder;
+}
+
+form {
+    text-align: left;
+}
+
+#name, .gender, .password, .you {
+    background-color: #c1e7e3;
+    padding: 6px;
+}
+
+.reg, .mail, .dob {
+    background-color: #d3f1d2 ;
+    padding: 6px;
+}
+
+#pass ,textarea ,.male ,.female ,#fname ,#mname ,#lname  {
+    background-color: #d3f1d2;
+}
+
+#mail ,#dob ,#contact ,#loc ,#coun ,#pin ,#stat{
+    background-color: #c1e7e3;
+}
+
+.opacity {
+    opacity: 0.6;
+}
